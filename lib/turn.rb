@@ -38,7 +38,7 @@ def turn(board)
       puts move(board, index)
   else 
     puts "Invalidate move please enter 1-9:"
-    self.board
+    turn(board) 
   end   
 end 
 
