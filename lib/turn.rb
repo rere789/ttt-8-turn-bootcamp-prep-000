@@ -36,10 +36,10 @@ def turn(board)
     index = input_to_index(index)
   if valid_move?(board, index)
       puts move(board, index)
+      puts display_board
   else 
     puts "Invalidate move please enter 1-9:"
     turn(board) 
   end   
 end 
-
 
