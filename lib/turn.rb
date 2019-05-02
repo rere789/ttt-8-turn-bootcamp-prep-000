@@ -35,7 +35,7 @@ def turn(board)
     index = gets.strip.chomp
     input_to_index(index)
   if valid_move?(board, index)
-    puts move(board, index)
+    # puts move(board, index)
   end   
 end 
 
