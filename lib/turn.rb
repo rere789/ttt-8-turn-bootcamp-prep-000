@@ -35,7 +35,7 @@ def turn(board)
     index = gets.strip.chomp
       if index == valid_move
         puts position_taken(board, index)
-  
+  end
 end 
 
 
