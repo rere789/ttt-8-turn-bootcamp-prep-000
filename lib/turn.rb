@@ -39,6 +39,7 @@ def turn(board)
   else 
     puts "Invalidate move please enter 1-9:"
     index = gets.strip.chomp
+    puts display_board
   end   
 end 
 
